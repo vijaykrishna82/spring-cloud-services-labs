@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 @RefreshScope
 public class QuoteService {
-	Logger logger = LoggerFactory.getLogger(QuoteController.class);
+	Logger logger = LoggerFactory.getLogger(QuoteService.class);
 
 	@Value("${quoteServiceURL:}")
 	private String quoteServiceURL;
